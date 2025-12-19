@@ -96,7 +96,7 @@ with col1:
     uploaded_file = st.file_uploader("Upload leaf photo", type=["jpg", "jpeg", "png"])
 with col2:
     st.image(
-        "https://img.freepik.com/free-photo/closeup-shot-green-tomatoes-growing-branch-with-leaves_181624-24110.jpg?w=740",
+        "https://thumbs.dreamstime.com/b/beans-leaf-nature-vegetable-small-green-42195917.jpg",
         caption="Example leaf", use_column_width=True)
 
 if uploaded_file is not None:
@@ -122,4 +122,5 @@ if uploaded_file is not None:
 
 st.markdown("---")
 
-st.caption("AgroLens v3 • Powered by AI • Built with Streamlit")
+st.caption("AgroLens v3 • Powered by AI • Built with Streamlit • IN GOD I TRUST ")
+
