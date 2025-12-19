@@ -88,7 +88,7 @@ def predict(image):
 
 
 # ----------------- Streamlit UI -----------------
-st.title("Leaf AgroLens")
+st.title("AgroLens_001")
 st.markdown("### Instant Crop Disease Diagnosis from Leaf Photos")
 
 col1, col2 = st.columns(2)
@@ -121,4 +121,5 @@ if uploaded_file is not None:
     st.info(f"Recommended Action: {tip}")
 
 st.markdown("---")
+
 st.caption("AgroLens v3 • Powered by AI • Built with Streamlit")
